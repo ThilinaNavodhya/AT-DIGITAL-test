@@ -17,6 +17,8 @@
 	color: #FFFFFF;
 	font-size: 14px;
 	font-weight: 500;
+	position: relative;
+    display: inline-block;
 }
 
 .navbar-offcanvas-text{
@@ -25,9 +27,58 @@
 	font-size: 14px;
 	font-weight: 500;
 }
-.navbar-text:hover{
+a.navbar-text:hover{
 	font-family: "Inter", sans-serif;
 	color: #e2e2e2;
+	background-color: #f17609;
+}
+
+.navbar-nav a.nav-link.navbar-text.active {
+    background-color: #f17609;
+	color: #e2e2e2;
+}
+
+.navbar-nav a.nav-link.navbar-text:focus {
+    background-color: #f17609;
+	color: #e2e2e2;
+}
+.navbar-nav a.nav-link.navbar-text.active:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 94%;
+    margin: 0px auto;
+    max-width: 40px;
+    height: 2px;
+    background: #FFFFFF;
+    border-radius: 0px;
+}
+
+.navbar-nav a.nav-link.navbar-text:focus:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 94%;
+    margin: 0px auto;
+    max-width: 40px;
+    height: 2px;
+    background: #FFFFFF;
+    border-radius: 0px;
+}
+
+.navbar-nav a.nav-link.navbar-text:hover:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 94%;
+    margin: 0px auto;
+    max-width: 40px;
+    height: 2px;
+    background: #FFFFFF;
+    border-radius: 0px;
 }
 
 
