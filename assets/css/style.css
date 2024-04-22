@@ -30,16 +30,16 @@
 a.navbar-text:hover{
 	font-family: "Inter", sans-serif;
 	color: #e2e2e2;
-	background-color: #f17609;
+	background: linear-gradient(90deg, rgba(77,202,121,1) 15%, rgba(28,189,221,1) 69%);
 }
 
 .navbar-nav a.nav-link.navbar-text.active {
-    background-color: #f17609;
+    background: linear-gradient(90deg, rgba(77,202,121,1) 15%, rgba(28,189,221,1) 69%);
 	color: #e2e2e2;
 }
 
 .navbar-nav a.nav-link.navbar-text:focus {
-    background-color: #f17609;
+    background: linear-gradient(90deg, rgba(77,202,121,1) 15%, rgba(28,189,221,1) 69%);
 	color: #e2e2e2;
 }
 .navbar-nav a.nav-link.navbar-text.active:after {
